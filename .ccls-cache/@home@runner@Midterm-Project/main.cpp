@@ -22,6 +22,7 @@ int main() {
     cin>>a;
     cout<<"PERSON "<<i+1<<" PROFESSION: "<<endl;
     cin>>s;
+    cout<<"(Impact of Covid on profession)"<<endl;
     cout<<"PERSON "<<i+1<<" COVID ON A SCALE OF 1-10: "<<endl;
     cin>>c;
     p[i].setAll(n,a,s,c);
